@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BK_Login_UI_2_Activity">
 
+    <ImageView
+        android:id="@+id/img_fundo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/topo_ui_2"
+        android:contentDescription="@string/dsp_fundo_topo_bk_food" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_top_ui_2"
+        android:contentDescription="@string/dsp_logo_bk_food" />
+
+    <TextView
+        android:id="@+id/txt_titulo_bk_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/titulo_bk_food"
+        android:textColor="@color/taupe"
+        android:textSize="@dimen/text_grande_32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_fundo" />
+
+    <EditText
+        android:id="@+id/edt_nome_usuario"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:ems="10"
+        android:background="@drawable/edt_ui_2"
+        android:inputType="text"
+        android:textSize="@dimen/text_pequeno_14"
+        android:hint="@string/nome_usuario"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo_bk_food" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:ems="10"
+        android:background="@drawable/edt_ui_2"
+        android:inputType="textPassword|numberPassword"
+        android:textSize="@dimen/text_pequeno_14"
+        android:hint="@string/senha"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nome_usuario" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:text="@string/login"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/text_medio_18"
+        android:background="@drawable/btn_login_ui_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_senha" />
+
+    <TextView
+        android:id="@+id/txt_nao_possui_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_pequena_16"
+        android:text="@string/nao_possui_conta"
+        android:textSize="@dimen/text_pequeno_14"
+        android:textColor="@color/taupe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/txt_recuperar_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_pequena_16"
+        android:text="@string/esqueceu_senha"
+        android:textColor="@color/taupe"
+        android:textSize="@dimen/text_pequeno_14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

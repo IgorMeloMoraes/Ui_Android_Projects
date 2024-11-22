@@ -11,6 +11,7 @@
     <dimen name="text_medio_18">18sp</dimen>
     <dimen name="text_medio_20">20sp</dimen>
     <dimen name="text_grande_30">30sp</dimen>
+    <dimen name="text_grande_32">32sp</dimen>
     <dimen name="text_gigante_60">60sp</dimen>
 
     <!-- Logos e Imagens -->
@@ -21,6 +22,7 @@
 
     <!-- Curvatura - Radius    -->
     <dimen name="radius_medio_50">50dp</dimen>
+    <dimen name="radius_pequeno_10">10dp</dimen>
 
     <!-- Bordas  -->
     <dimen name="borda_pequena_1">1dp</dimen>

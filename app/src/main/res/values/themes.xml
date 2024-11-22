@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.UiAndroidProjects" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.UiAndroidProjects" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
@@ -11,7 +11,7 @@
     </style>
 
     <!-- UI 2 - BK Food    -->
-    <style name="Base.Theme.BKFood" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Base.Theme.BKFood" parent="Theme.AppCompat.Light.DarkActionBar">
 
     </style>
 

@@ -18,4 +18,10 @@
     <string name="txt_titulo_king_cookie">King Cookie Shop</string>
     <string name="txt_entrega_rapida">Entrega Rápida</string>
     <string name="dsp_logo_king_cookie">Logotipo de um cookie com coroa de rei, um rosto feliz, braços e pernas. Tipografia abaixo escrito King Cookie</string>
+
+    <!-- UI 2 - Bk Food    -->
+    <string name="app_bk_food">Bk Food</string>
+    <string name="dsp_logo_bk_food">Logo do Burger King - São duas fatias de pão e entre elas os dizeres em vermelhor Burger King</string>
+    <string name="dsp_fundo_topo_bk_food">Fundo no tom verde, com predios aos fundos na cor verde mais escura criando uma especie de sombra</string>
+    <string name="titulo_bk_food">BK Shoop</string>
 </resources>

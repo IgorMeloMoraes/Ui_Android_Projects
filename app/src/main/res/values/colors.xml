@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Geral - Padrão    -->
     <color name="preto">#FF000000</color>
     <color name="branco">#FFFFFFFF</color>
 
@@ -11,4 +13,9 @@
     <color name="amarelo_areolina">#FFEB3B</color>
     <color name="branco_opacidade_10">#1BFFFFFF</color>
     <color name="branco_opacidade_39">#65FAF8F8</color>
+
+    <!-- BK Food - UI 2    -->
+    <color name="taupe">#494340</color>
+    <color name="prata">#C6C6C6</color>
+    <color name="verde_kelly">#55A029</color>
 </resources>
