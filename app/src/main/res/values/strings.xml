@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Ui Android Projects</string>
+
+    <!-- Uso Geral    -->
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
+    <string name="nome_usuario">Nome de Usuário</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="possui_conta">Já Possui Uma Conta? Faça o Login</string>
+    <string name="nao_possui_conta">Não Possui Uma Conta? Cadastre-se</string>
+    <string name="esqueceu_senha">Esqueceu a Senha?</string>
+    <string name="contate_suporte">Contate o Suporte</string>
+
+    <!-- UI 1 - King Cookie   -->
+    <string name="app_king_cookie">King Cookie</string>
+    <string name="txt_titulo_king_cookie">King Cookie Shop</string>
+    <string name="txt_entrega_rapida">Entrega Rápida</string>
+    <string name="dsp_logo_king_cookie">Logotipo de um cookie com coroa de rei, um rosto feliz, braços e pernas. Tipografia abaixo escrito King Cookie</string>
 </resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ui_1"
+    tools:context=".UI_1_Login_KingCookie">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="@dimen/img_padrao_200"
+        android:layout_height="@dimen/img_padrao_200"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food_1"
+        android:contentDescription="@string/dsp_logo_king_cookie"/>
+
+
+    <TextView
+        android:id="@+id/txt_titulo_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:fontFamily="cursive"
+        android:text="@string/txt_titulo_king_cookie"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/text_gigante_60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+    <TextView
+        android:id="@+id/txt_entrega_rapida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_entrega_rapida"
+        android:textColor="@color/amarelo_areolina"
+        android:textSize="@dimen/text_medio_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo_cadastro" />
+
+    <EditText
+        android:id="@+id/edt_nome_usuario"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:background="@drawable/edt_ui_1"
+        android:ems="10"
+        android:hint="@string/nome_usuario"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textSize="@dimen/text_pequeno_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_entrega_rapida" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_media_24"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:background="@drawable/edt_ui_1"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textSize="@dimen/text_pequeno_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nome_usuario" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edt_altura_padrao_50"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginTop="@dimen/margin_media_24"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:background="@drawable/btn_login_ui_1"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/rosa_brilhante_crayola"
+        android:textSize="@dimen/text_medio_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_senha" />
+
+    <TextView
+        android:id="@+id/txt_nao_possui_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_pequena_16"
+        android:textColor="@color/branco"
+        android:text="@string/nao_possui_conta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/txt_recuperar_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_pequena_16"
+        android:text="@string/esqueceu_senha"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nao_possui_conta"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

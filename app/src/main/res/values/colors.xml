@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+
+
+    <!-- Food Shop Login - UI 1    -->
+    <color name="rosa_brilhante_crayola">#FF3F6F</color>
+    <color name="rosa_brilhante_crayola_medio">#FF6375</color>
+    <color name="salmao">#FF8978</color>
+    <color name="amarelo_areolina">#FFEB3B</color>
+    <color name="branco_opacidade_10">#1BFFFFFF</color>
+    <color name="branco_opacidade_39">#65FAF8F8</color>
 </resources>
