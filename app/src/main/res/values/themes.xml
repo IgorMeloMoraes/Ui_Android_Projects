@@ -5,8 +5,13 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <!-- UI 1 - FoodShop        -->
+    <!-- UI 1 - King Cookie        -->
     <style name="Base.Theme.FoodShop" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <!-- UI 2 - BK Food    -->
+    <style name="Base.Theme.BKFood" parent="Theme.AppCompat.Light.NoActionBar">
 
     </style>
 
