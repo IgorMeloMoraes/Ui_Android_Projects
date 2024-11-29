@@ -8,6 +8,9 @@
     <dimen name="margin_padrao_32">32dp</dimen>
     <dimen name="margin_grande_64">64dp</dimen>
 
+    <!-- Padding  -->
+    <dimen name="padding_media_20">20dp</dimen>
+
     <!-- Textos    -->
     <dimen name="text_pequeno_12">12sp</dimen>
     <dimen name="text_pequeno_14">14sp</dimen>
@@ -15,6 +18,7 @@
     <dimen name="text_medio_20">20sp</dimen>
     <dimen name="text_grande_30">30sp</dimen>
     <dimen name="text_grande_32">32sp</dimen>
+    <dimen name="text_grande_36">36sp</dimen>
     <dimen name="text_gigante_60">60sp</dimen>
 
     <!-- Logos e Imagens -->

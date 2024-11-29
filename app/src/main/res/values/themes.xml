@@ -20,6 +20,11 @@
 
     </style>
 
+    <!-- UI 4 - Login -->
+    <style name="Base.Theme.LoginUI4" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
 
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />

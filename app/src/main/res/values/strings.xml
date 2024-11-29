@@ -28,4 +28,8 @@
     <!-- UI 3 - Login e Cadastro    -->
     <string name="dsp_fundo_baixo_ui_3">Linhas curva com duas variações de cores - branco e cinza</string>
     <string name="dsp_logo_ui_3">Logo circular com a os dizeres: sua logo aqui</string>
+
+    <!-- UI 4 - Login    -->
+    <string name="dsp_logo_ui_4">Logo circular com a os dizeres: sua logo aqui</string>
+    <string name="txt_titulo_ui_4">Smart Home</string>
 </resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI_4_Login_Activity">
+
+    <LinearLayout
+        android:id="@+id/linear_container_logo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:background="@drawable/background_ui_4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_container_logo_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_grande_64"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sua_logo_aqui"
+                android:contentDescription="@string/dsp_logo_ui_4" />
+
+            <TextView
+                android:id="@+id/txt_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_titulo_ui_4"
+                android:textSize="@dimen/text_grande_36"
+                android:textColor="@color/branco"
+                app:layout_constraintEnd_toEndOf="@+id/img_logo"
+                app:layout_constraintStart_toStartOf="@+id/img_logo"
+                app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edt_altura_media_45"
+                android:layout_marginStart="@dimen/margin_grande_64"
+                android:layout_marginTop="@dimen/margin_padrao_32"
+                android:layout_marginEnd="@dimen/margin_grande_64"
+                android:paddingEnd="@dimen/padding_media_20"
+                android:paddingStart="@dimen/padding_media_20"
+                android:background="@drawable/edit_ui_4"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/branco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titulo" />
+
+            <EditText
+                android:id="@+id/edt_senha"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edt_altura_media_45"
+                android:layout_marginStart="@dimen/margin_grande_64"
+                android:layout_marginTop="@dimen/margin_padrao_32"
+                android:layout_marginEnd="@dimen/margin_grande_64"
+                android:paddingEnd="@dimen/padding_media_20"
+                android:paddingStart="@dimen/padding_media_20"
+                android:background="@drawable/edit_ui_4"
+                android:ems="10"
+                android:hint="@string/senha"
+                android:inputType="textPassword"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/branco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edt_email" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_container_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_grande_64"
+            android:layout_marginEnd="@dimen/margin_grande_64"
+            android:background="@drawable/btn_login_ui_4"
+            android:text="@string/login"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_18"/>
+
+        <TextView
+            android:id="@+id/txt_nao_possui_conta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/nao_possui_conta"
+            android:textColor="@color/preto"/>
+    </LinearLayout>
+</LinearLayout>

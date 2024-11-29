@@ -31,4 +31,15 @@
     <color name="branco_opacidade_33">#53FFFFFF</color>
     <color name="cinza_opacidade_40">#65FAF8F8</color>
 
+    <!-- UI 4 - Login -->
+    <color name="roxo_real">#72479B</color>
+    <color name="roxo_pompa_poder">#806897</color>
+    <color name="roxo_tekhelet">#5C2294</color>
+    <color name="azul_aco">#2980B9</color>
+    <color name="azul_carvao">#2C3E50</color>
+    <color name="gamboge">#F09819</color>
+    <color name="tomate">#FF512F</color>
+    <color name="branco_opacidade_48">#79FFFFFF</color>
+
+
 </resources>
