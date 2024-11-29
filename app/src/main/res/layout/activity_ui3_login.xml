@@ -8,11 +8,11 @@
     tools:context=".UI_3_Login_Activity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginStart="@dimen/margin_grande_64"
+        android:layout_marginEnd="@dimen/margin_grande_64"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,11 +21,11 @@
         app:layout_constraintVertical_bias="0.61">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/edt_nome_usuario"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="@dimen/edt_altura_media_45"
+            android:layout_marginTop="@dimen/margin_pequena_10"
+            android:layout_marginBottom="@dimen/margin_pequena_10"
             android:background="@drawable/edit_ui_3"
             android:ems="10"
             android:gravity="center"
@@ -36,31 +36,31 @@
             android:textSize="@dimen/text_pequeno_14" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/edt_senha"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="@dimen/edt_altura_media_45"
+            android:layout_marginTop="@dimen/margin_pequena_10"
+            android:layout_marginBottom="@dimen/margin_pequena_10"
             android:background="@drawable/edit_ui_3"
             android:ems="10"
             android:gravity="center"
-            android:inputType="text"
-            android:text="@string/nome_usuario"
+            android:inputType="textPassword|numberPassword"
+            android:text="@string/senha"
             android:textColor="@color/branco"
             android:textColorHint="@color/branco"
             android:textSize="@dimen/text_pequeno_14" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_height="@dimen/edt_altura_media_45"
+            android:layout_marginTop="@dimen/margin_pequena_15"
+            android:layout_marginBottom="@dimen/margin_pequena_15"
             android:background="@drawable/btn_login_ui_3"
             android:text="@string/login" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txt_nao_possui_conta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -69,24 +69,26 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_fundo_bottom"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/img_padrao_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/back_bottom"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:contentDescription="@string/dsp_fundo_baixo_ui_3" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:layout_marginBottom="@dimen/margin_padrao_32"
+        app:layout_constraintBottom_toTopOf="@+id/linear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sua_logo_aqui" />
+        app:srcCompat="@drawable/sua_logo_aqui"
+        android:contentDescription="@string/dsp_logo_ui_3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

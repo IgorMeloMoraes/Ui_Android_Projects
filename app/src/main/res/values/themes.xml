@@ -16,6 +16,9 @@
     </style>
 
     <!-- UI 3 - Login e Cadastro    -->
+    <style name="Base.Theme.LoginUI3" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
 
 
 

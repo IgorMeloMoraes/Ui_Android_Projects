@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Margens-->
-    <dimen name="margin_padrao_32">32dp</dimen>
-    <dimen name="margin_media_24">24dp</dimen>
+    <dimen name="margin_pequena_10">10dp</dimen>
+    <dimen name="margin_pequena_15">15dp</dimen>
     <dimen name="margin_pequena_16">16dp</dimen>
+    <dimen name="margin_media_24">24dp</dimen>
+    <dimen name="margin_padrao_32">32dp</dimen>
+    <dimen name="margin_grande_64">64dp</dimen>
 
     <!-- Textos    -->
     <dimen name="text_pequeno_12">12sp</dimen>
@@ -18,6 +21,7 @@
     <dimen name="img_padrao_200">200dp</dimen>
 
     <!-- Caixas de texto -->
+    <dimen name="edt_altura_media_45">45dp</dimen>
     <dimen name="edt_altura_padrao_50">50dp</dimen>
 
     <!-- Curvatura - Radius    -->

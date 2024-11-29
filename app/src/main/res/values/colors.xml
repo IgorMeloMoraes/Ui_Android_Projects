@@ -23,11 +23,12 @@
     <color name="coral">#FF835F</color>
     <color name="rosa_blush">#DB678C</color>
     <color name="roxo_iris">#5743AE</color>
-    <color name="azul_crayola">#5276ea</color>
-    <color name="azul_egipcio">#383ba3</color>
-    <color name="azul_centaurea">#609aff</color>
-    <color name="azul_honolulu">#1C7dbe</color>
-    <color name="azul_centaurea">#383ba3</color>
-    <color name="verde_pigmento">#38a343</color>
+    <color name="azul_crayola">#5276EA</color>
+    <color name="azul_egipcio">#383bA3</color>
+    <color name="azul_centaurea">#609AFF</color>
+    <color name="azul_honolulu">#1C7DBE</color>
+    <color name="verde_pigmento">#38A343</color>
+    <color name="branco_opacidade_33">#53FFFFFF</color>
+    <color name="cinza_opacidade_40">#65FAF8F8</color>
 
 </resources>

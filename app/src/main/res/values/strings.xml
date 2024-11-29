@@ -26,4 +26,6 @@
     <string name="titulo_bk_food">BK Shoop</string>
 
     <!-- UI 3 - Login e Cadastro    -->
+    <string name="dsp_fundo_baixo_ui_3">Linhas curva com duas variações de cores - branco e cinza</string>
+    <string name="dsp_logo_ui_3">Logo circular com a os dizeres: sua logo aqui</string>
 </resources>

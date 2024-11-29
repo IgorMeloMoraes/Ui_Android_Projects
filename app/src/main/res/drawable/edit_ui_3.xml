@@ -4,11 +4,11 @@
     <item>
         <shape
             android:shape="rectangle">
-            <solid android:color="#53FFFFFF"/>
+            <solid android:color="@color/branco_opacidade_33"/>
             <corners android:radius="@dimen/radius_medio_50"/>
             <stroke
                 android:width="@dimen/borda_pequena_1"
-                android:color="#65FAF8F8"/>
+                android:color="@color/cinza_opacidade_40"/>
         </shape>
     </item>
 </selector>
