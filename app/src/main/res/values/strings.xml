@@ -24,4 +24,6 @@
     <string name="dsp_logo_bk_food">Logo do Burger King - São duas fatias de pão e entre elas os dizeres em vermelhor Burger King</string>
     <string name="dsp_fundo_topo_bk_food">Fundo no tom verde, com predios aos fundos na cor verde mais escura criando uma especie de sombra</string>
     <string name="titulo_bk_food">BK Shoop</string>
+
+    <!-- UI 3 - Login e Cadastro    -->
 </resources>

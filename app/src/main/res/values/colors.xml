@@ -18,4 +18,16 @@
     <color name="taupe">#494340</color>
     <color name="prata">#C6C6C6</color>
     <color name="verde_kelly">#55A029</color>
+
+    <!-- UI 3 - Login e Cadastro    -->
+    <color name="coral">#FF835F</color>
+    <color name="rosa_blush">#DB678C</color>
+    <color name="roxo_iris">#5743AE</color>
+    <color name="azul_crayola">#5276ea</color>
+    <color name="azul_egipcio">#383ba3</color>
+    <color name="azul_centaurea">#609aff</color>
+    <color name="azul_honolulu">#1C7dbe</color>
+    <color name="azul_centaurea">#383ba3</color>
+    <color name="verde_pigmento">#38a343</color>
+
 </resources>
