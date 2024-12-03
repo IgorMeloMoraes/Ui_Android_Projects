@@ -25,6 +25,7 @@
     <dimen name="text_grande_32">32sp</dimen>
     <dimen name="text_grande_36">36sp</dimen>
     <dimen name="text_gigante_60">60sp</dimen>
+    <dimen name="text_gigante_70">70sp</dimen>
 
     <!-- Logos e Imagens -->
     <dimen name="img_70">70dp</dimen>
@@ -39,6 +40,7 @@
     <dimen name="radius_medio_50">50dp</dimen>
     <dimen name="radius_pequeno_10">10dp</dimen>
     <dimen name="radius_pequeno_7">7dp</dimen>
+    <dimen name="radius_pequeno_100">100dp</dimen>
 
     <!-- Bordas  -->
     <dimen name="borda_pequena_1">1dp</dimen>

@@ -56,5 +56,10 @@
     <string name="txt_internet">Internet</string>
     <string name="txt_acesso">Acesso</string>
 
+    <!-- UI 7 - Login -->
+    <string name="txt_titulo_ui_7">Olá...</string>
+    <string name="txt_subtitulo_ui_7">Bem-Vindo ao Social App</string>
+    <string name="txt_app_name_ui_7">Social App</string>
+
 
 </resources>

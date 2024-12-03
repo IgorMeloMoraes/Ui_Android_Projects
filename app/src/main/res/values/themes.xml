@@ -35,6 +35,11 @@
 
     </style>
 
+    <!-- UI 7 - Login -->
+    <style name="Base.Theme.LoginUi7" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />
 </resources>
