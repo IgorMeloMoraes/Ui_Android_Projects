@@ -25,6 +25,10 @@
 
     </style>
 
+    <!-- UI 5 - Dashboard    -->
+    <style name="Base.Theme.DashboardUI5" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
 
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />

@@ -41,5 +41,8 @@
     <color name="tomate">#FF512F</color>
     <color name="branco_opacidade_48">#79FFFFFF</color>
 
+    <!-- UI 5 - Dashboard    -->
+    <color name="lapis_lazuli">#FF1D689A</color>
+
 
 </resources>

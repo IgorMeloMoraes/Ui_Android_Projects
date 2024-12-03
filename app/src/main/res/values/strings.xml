@@ -32,4 +32,17 @@
     <!-- UI 4 - Login    -->
     <string name="dsp_logo_ui_4">Logo circular com a os dizeres: sua logo aqui</string>
     <string name="txt_titulo_ui_4">Smart Home</string>
+
+    <!-- UI 5 - Dashboard    -->
+    <string name="txt_titulo_ui_5">Menu App</string>
+    <string name="txt_hamburguer">Hamburguer</string>
+    <string name="txt_cachorro_quente">Cachorro Quente</string>
+    <string name="txt_pizza">Pizza</string>
+    <string name="txt_pipoca">Pipoca</string>
+    <string name="txt_sorvete">Sorvete</string>
+    <string name="txt_frutas">Frutas</string>
+    <string name="txt_donuts">Donuts</string>
+    <string name="txt_torta">Torta</string>
+
+
 </resources>
