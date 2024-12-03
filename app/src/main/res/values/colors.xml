@@ -44,5 +44,13 @@
     <!-- UI 5 - Dashboard    -->
     <color name="lapis_lazuli">#FF1D689A</color>
 
+    <!-- UI 6 - Dashboard -->
+    <color name="pervinca">#C7CFFB</color>
+    <color name="roxo_uva">#673AB7</color>
+    <color name="champanhe">#FBE4C7</color>
+    <color name="laranja_gigantes">#FF5722</color>
+    <color name="indico_eletrico">#6200EE</color>
+    <color name="casca_de_laranja">#FF9800</color>
+
 
 </resources>

@@ -30,6 +30,11 @@
 
     </style>
 
+    <!-- UI 6 - Dashboard -->
+    <style name="Base.Theme.DashboardUI6" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />
 </resources>

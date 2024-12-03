@@ -44,5 +44,17 @@
     <string name="txt_donuts">Donuts</string>
     <string name="txt_torta">Torta</string>
 
+    <!-- UI 6 - Dashboard -->
+    <string name="txt_titulo_ui_6">Dashboard Menu</string>
+    <string name="dsp_img_topo_ui_6">Imagem de fundo: Tres Circulos preenchidos com as cores amarelo, e dois tons de azul</string>
+    <string name="txt_subtitulo_ui_6">Seu Subtitulo...</string>
+    <string name="txt_pesquisa">Pesquise...</string>
+    <string name="txt_ligacao">Ligação</string>
+    <string name="txt_redes">Redes</string>
+    <string name="txt_conectividade">Conectividade</string>
+    <string name="txt_conexao">Conexão</string>
+    <string name="txt_internet">Internet</string>
+    <string name="txt_acesso">Acesso</string>
+
 
 </resources>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI_6_Dashboard_Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_container_topo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_largura_270"
+        android:background="@drawable/background_topo_ui_6_v2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_padrao_32"
+            android:layout_marginTop="@dimen/margin_grande_80"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/txt_titulo_ui_6"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_grande_28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_topo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/top_ui_6"
+            android:contentDescription="@string/dsp_img_topo_ui_6" />
+
+        <TextView
+            android:id="@+id/txt_subtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_padrao_32"
+            android:layout_marginTop="@dimen/margin_pequena_8"
+            android:fontFamily="casual"
+            android:text="@string/txt_subtitulo_ui_6"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_titulo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edt_pesquisa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_grande_64"
+        android:layout_marginEnd="@dimen/margin_grande_64"
+        android:background="@drawable/edit_ui_6"
+        android:drawableStart="?android:attr/actionModeWebSearchDrawable"
+        android:elevation="@dimen/elevation_20"
+        android:ems="10"
+        android:hint="@string/txt_pesquisa"
+        android:inputType="textPersonName"
+        android:padding="@dimen/padding_media_10"
+        android:textSize="@dimen/text_pequeno_14"
+        app:layout_constraintBottom_toBottomOf="@+id/constraint_container_topo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_container_topo" />
+
+    <LinearLayout
+        android:id="@+id/linear_container_menus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_pequena_8"
+        android:layout_marginTop="@dimen/margin_pequena_16"
+        android:layout_marginEnd="@dimen/margin_pequena_8"
+        android:layout_marginBottom="@dimen/margin_pequena_16"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pesquisa">
+
+
+        <LinearLayout
+            android:id="@+id/linear_horizontal_linha_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_ligacao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+
+                <ImageView
+                    android:id="@+id/img_net_ligacao"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_net_ligacao"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_ligacao" />
+
+
+                <TextView
+                    android:id="@+id/txt_net_ligacao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_ligacao"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_net_ligacao"
+                    app:layout_constraintStart_toStartOf="@+id/img_net_ligacao"
+                    app:layout_constraintTop_toBottomOf="@+id/img_net_ligacao" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_redes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+                <ImageView
+                    android:id="@+id/img_redes"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_redes"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_redes" />
+
+                <TextView
+                    android:id="@+id/txt_redes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_redes"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_redes"
+                    app:layout_constraintStart_toStartOf="@+id/img_redes"
+                    app:layout_constraintTop_toBottomOf="@+id/img_redes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_horizontal_linha_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_conectividade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+
+                <ImageView
+                    android:id="@+id/img_net_conectividade"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_net_conectividade"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_conectividade" />
+
+
+                <TextView
+                    android:id="@+id/txt_net_conectividade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_conectividade"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_net_conectividade"
+                    app:layout_constraintStart_toStartOf="@+id/img_net_conectividade"
+                    app:layout_constraintTop_toBottomOf="@+id/img_net_conectividade" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_conexao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+                <ImageView
+                    android:id="@+id/img_conexao"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_conexao"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_conexao_estabelecida" />
+
+                <TextView
+                    android:id="@+id/txt_conexao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_conexao"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_conexao"
+                    app:layout_constraintStart_toStartOf="@+id/img_conexao"
+                    app:layout_constraintTop_toBottomOf="@+id/img_conexao" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_horizontal_linha_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_internet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+
+                <ImageView
+                    android:id="@+id/img_internet"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_internet"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_internet" />
+
+
+                <TextView
+                    android:id="@+id/txt_internet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_internet"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_internet"
+                    app:layout_constraintStart_toStartOf="@+id/img_internet"
+                    app:layout_constraintTop_toBottomOf="@+id/img_internet" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_acesso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_pequena_10"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_ui_6_v2">
+
+                <ImageView
+                    android:id="@+id/img_acesso"
+                    android:layout_width="@dimen/img_70"
+                    android:layout_height="@dimen/img_70"
+                    android:layout_marginStart="@dimen/margin_pequena_8"
+                    android:layout_marginTop="@dimen/margin_pequena_16"
+                    android:layout_marginEnd="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_acesso"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_internet_na_palma_da_mao" />
+
+                <TextView
+                    android:id="@+id/txt_acesso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_pequena_8"
+                    android:layout_marginBottom="@dimen/margin_pequena_8"
+                    android:text="@string/txt_acesso"
+                    android:textColor="@color/indico_eletrico"
+                    android:textSize="@dimen/text_medio_18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/img_acesso"
+                    app:layout_constraintStart_toStartOf="@+id/img_acesso"
+                    app:layout_constraintTop_toBottomOf="@+id/img_acesso" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
