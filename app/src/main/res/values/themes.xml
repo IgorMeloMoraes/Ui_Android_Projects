@@ -40,6 +40,11 @@
 
     </style>
 
+    <!-- UI 8 - Login e Cadastro -->
+    <style name="Base.Theme.LoginUi8" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />
 </resources>

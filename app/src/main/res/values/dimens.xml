@@ -9,6 +9,7 @@
     <dimen name="margin_padrao_32">32dp</dimen>
     <dimen name="margin_grande_64">64dp</dimen>
     <dimen name="margin_grande_80">80dp</dimen>
+    <dimen name="margin_grande_96">96dp</dimen>
     <dimen name="margin_gigante_120">120dp</dimen>
 
     <!-- Padding  -->
@@ -20,6 +21,7 @@
     <dimen name="text_pequeno_14">14sp</dimen>
     <dimen name="text_medio_18">18sp</dimen>
     <dimen name="text_medio_20">20sp</dimen>
+    <dimen name="text_medio_23">23sp</dimen>
     <dimen name="text_grande_28">28sp</dimen>
     <dimen name="text_grande_30">30sp</dimen>
     <dimen name="text_grande_32">32sp</dimen>
@@ -33,12 +35,14 @@
     <dimen name="img_padrao_200">200dp</dimen>
 
     <!-- Caixas de texto -->
+    <dimen name="edt_altura_media_40">40dp</dimen>
     <dimen name="edt_altura_media_45">45dp</dimen>
     <dimen name="edt_altura_padrao_50">50dp</dimen>
 
     <!-- Curvatura - Radius    -->
     <dimen name="radius_medio_50">50dp</dimen>
     <dimen name="radius_pequeno_10">10dp</dimen>
+    <dimen name="radius_pequeno_20">20dp</dimen>
     <dimen name="radius_pequeno_7">7dp</dimen>
     <dimen name="radius_pequeno_100">100dp</dimen>
 
@@ -50,6 +54,7 @@
     <dimen name="elevation_20">20dp</dimen>
 
     <!-- Altura e Largura -->
+    <dimen name="altura_largura_185">185dp</dimen>
     <dimen name="altura_largura_270">270dp</dimen>
 
 </resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI_8_Login_Activity">
+
+    <LinearLayout
+        android:id="@+id/linear_container_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_pequena_16"
+        android:layout_marginEnd="@dimen/margin_pequena_16"
+        android:background="@drawable/background_ui_8"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39">
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_pequena_16"
+            android:layout_marginTop="@dimen/margin_grande_96"
+            android:layout_marginEnd="@dimen/margin_pequena_16"
+            android:text="@string/email"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_23" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_altura_padrao_50"
+            android:layout_marginStart="@dimen/margin_pequena_16"
+            android:layout_marginTop="@dimen/margin_pequena_8"
+            android:layout_marginEnd="@dimen/margin_pequena_16"
+            android:background="@drawable/edit_ui_8"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_18" />
+
+        <TextView
+            android:id="@+id/txt_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_pequena_16"
+            android:layout_marginTop="@dimen/margin_padrao_32"
+            android:layout_marginEnd="@dimen/margin_pequena_16"
+            android:text="@string/senha"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_23" />
+
+        <EditText
+            android:id="@+id/edt_senha"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_altura_padrao_50"
+            android:layout_marginStart="@dimen/margin_pequena_16"
+            android:layout_marginTop="@dimen/margin_pequena_8"
+            android:layout_marginEnd="@dimen/margin_pequena_16"
+            android:background="@drawable/edit_ui_8"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/text_medio_18" />
+
+        <Button
+            android:id="@+id/btn_esqueceu_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/edt_altura_media_40"
+            android:layout_marginTop="@dimen/margin_padrao_32"
+            android:layout_marginBottom="@dimen/margin_grande_64"
+            android:background="@drawable/btn_forget_password_ui_8"
+            android:paddingStart="@dimen/padding_media_20"
+            android:paddingEnd="@dimen/padding_media_20"
+            android:text="@string/esqueceu_senha"
+            android:textSize="@dimen/text_pequeno_14" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linear_container_login"
+        app:layout_constraintEnd_toEndOf="@+id/linear_container_login"
+        app:layout_constraintStart_toStartOf="@+id/linear_container_login"
+        app:layout_constraintTop_toTopOf="@+id/linear_container_login"
+        app:srcCompat="@drawable/password" />
+
+    <LinearLayout
+        android:id="@+id/linear_container_redes_sociais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_padrao_32"
+        android:layout_marginEnd="@dimen/margin_padrao_32"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linear_container_login"
+        app:layout_constraintEnd_toEndOf="@+id/linear_container_login"
+        app:layout_constraintStart_toStartOf="@+id/linear_container_login"
+        app:layout_constraintTop_toBottomOf="@+id/linear_container_login">
+
+        <ImageView
+            android:id="@+id/img_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/img_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/img_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/facebook" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/altura_largura_185"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padrao_32"
+        android:background="@drawable/background_ui_8"
+        android:text="@string/login"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/text_medio_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_container_redes_sociais" />
+
+    <TextView
+        android:id="@+id/txt_nao_possui_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nao_possui_conta"
+        android:layout_marginTop="@dimen/margin_pequena_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

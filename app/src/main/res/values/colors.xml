@@ -54,5 +54,9 @@
 
     <!-- UI 7 - Login -->
 
+    <!-- UI 8 - Login e Cadastro -->
+    <color name="azul_vista">#8497FF</color>
+    <color name="lavanda_floral">#BB6EFC</color>
+
 
 </resources>
