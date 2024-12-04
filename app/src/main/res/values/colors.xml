@@ -5,6 +5,7 @@
     <color name="preto">#FF000000</color>
     <color name="branco">#FFFFFFFF</color>
     <color name="cinza_escuro">#707070</color>
+    <color name="azul_medio">#0020BF</color>
 
 
     <!-- Food Shop Login - UI 1    -->
@@ -61,6 +62,23 @@
 
     <!-- UI 9 - Login -->
     <color name="teal">#00838F</color>
+
+    <!-- UI 10 - Dashboard -->
+    <color name="azul_tiffany">#B2DFD8</color>
+    <color name="verde_persa">#26A69A</color>
+    <color name="cardo">#D1C4E9</color>
+    <color name="ametista">#9575CD</color>
+    <color name="melao">#FFAB91</color>
+    <color name="verde_celadon">#A5D6A7</color>
+    <color name="rosa_orquidea">#F8BBD0</color>
+    <color name="pigmento_verde">#4CAF50</color>
+    <color name="rosa_ciclamen">#F06292</color>
+    <color name="timberwolf">#D7CCC8</color>
+    <color name="cinzento">#A1887F</color>
+    <color name="navajo_branco">#FFE0B2</color>
+    <color name="laranja_teia">#FFA726</color>
+    <color name="azul_urano">#BBDEFB</color>
+    <color name="azul_ncs">#2286C3</color>
 
 
 </resources>

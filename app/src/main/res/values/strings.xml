@@ -67,4 +67,15 @@
     <!-- UI 9 - Login -->
     <string name="txt_divisao_ou">OU</string>
 
+    <!-- UI 10 - Dashboard -->
+    <string name="txt_bemvindo_app">Bem-Vindo ao Menu App</string>
+    <string name="txt_compra">Compras</string>
+    <string name="txt_inbox">Inbox</string>
+    <string name="txt_mapa">Mapa</string>
+    <string name="txt_grafico">Grafico</string>
+    <string name="txt_dinheiro">Dinheiro</string>
+    <string name="txt_pesquisar">Pesquisa</string>
+    <string name="txt_configuracao">Config</string>
+    <string name="txt_duvida">Dúvidas</string>
+
 </resources>
