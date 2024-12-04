@@ -4,6 +4,7 @@
     <!-- Geral - Padrão    -->
     <color name="preto">#FF000000</color>
     <color name="branco">#FFFFFFFF</color>
+    <color name="cinza_escuro">#707070</color>
 
 
     <!-- Food Shop Login - UI 1    -->
@@ -57,6 +58,9 @@
     <!-- UI 8 - Login e Cadastro -->
     <color name="azul_vista">#8497FF</color>
     <color name="lavanda_floral">#BB6EFC</color>
+
+    <!-- UI 9 - Login -->
+    <color name="teal">#00838F</color>
 
 
 </resources>

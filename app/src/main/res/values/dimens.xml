@@ -43,6 +43,7 @@
     <dimen name="radius_medio_50">50dp</dimen>
     <dimen name="radius_pequeno_10">10dp</dimen>
     <dimen name="radius_pequeno_20">20dp</dimen>
+    <dimen name="radius_pequeno_25">25dp</dimen>
     <dimen name="radius_pequeno_7">7dp</dimen>
     <dimen name="radius_pequeno_100">100dp</dimen>
 
@@ -54,6 +55,8 @@
     <dimen name="elevation_20">20dp</dimen>
 
     <!-- Altura e Largura -->
+    <dimen name="altura_largura_1">1dp</dimen>
+    <dimen name="altura_largura_120">120dp</dimen>
     <dimen name="altura_largura_185">185dp</dimen>
     <dimen name="altura_largura_270">270dp</dimen>
 

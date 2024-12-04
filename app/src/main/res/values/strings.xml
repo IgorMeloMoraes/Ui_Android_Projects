@@ -11,6 +11,7 @@
     <string name="possui_conta">Já Possui Uma Conta? Faça o Login</string>
     <string name="nao_possui_conta">Não Possui Uma Conta? Cadastre-se</string>
     <string name="esqueceu_senha">Esqueceu a Senha?</string>
+    <string name="recuperar_senha">Não se lembra da senha? Recuperar</string>
     <string name="contate_suporte">Contate o Suporte</string>
 
     <!-- UI 1 - King Cookie   -->
@@ -62,5 +63,8 @@
     <string name="txt_app_name_ui_7">Social App</string>
 
     <!-- UI 8 - Login e Cadastro -->
+
+    <!-- UI 9 - Login -->
+    <string name="txt_divisao_ou">OU</string>
 
 </resources>

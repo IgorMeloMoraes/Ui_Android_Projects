@@ -45,6 +45,11 @@
 
     </style>
 
+    <!-- UI 9 - Login -->
+    <style name="Base.Theme.LoginUi9" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
 
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />
 </resources>
