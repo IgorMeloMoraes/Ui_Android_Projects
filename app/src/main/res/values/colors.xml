@@ -80,5 +80,8 @@
     <color name="azul_urano">#BBDEFB</color>
     <color name="azul_ncs">#2286C3</color>
 
+    <!-- UI 11 - Dashboard -->
+    <color name="timberwolf_11">#DED8D8</color>
+    <color name="laranja_princeton">#FF8F00</color>
 
 </resources>

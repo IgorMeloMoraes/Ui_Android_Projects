@@ -55,5 +55,10 @@
 
     </style>
 
+    <!-- UI 11 - Dashboard -->
+    <style name="Base.Theme.DashboardUI11"  parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    </style>
+
     <style name="Theme.UiAndroidProjects" parent="Base.Theme.UiAndroidProjects" />
 </resources>

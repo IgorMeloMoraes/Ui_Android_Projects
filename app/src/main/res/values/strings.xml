@@ -78,4 +78,15 @@
     <string name="txt_configuracao">Config</string>
     <string name="txt_duvida">Dúvidas</string>
 
+    <!-- UI 11 - Dashboard -->
+    <string name="txt_nome_usuario_ui_11">Ana Moraes</string>
+    <string name="txt_categoria">Categoria</string>
+    <string name="txt_novidades">Novidades</string>
+    <string name="txt_notas">Notas</string>
+    <string name="txt_tutotial">Tutorial</string>
+    <string name="txt_mensagem">Mensagem</string>
+    <string name="txt_calendario">Calendario</string>
+    <string name="txt_dicas">Dicas</string>
+    <string name="txt_tradutor">Tradutor</string>
+
 </resources>
